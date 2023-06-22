@@ -96,3 +96,7 @@ function myFunction() {
         x.className = "navbar";
     }
 }
+
+function openLink(url) {
+    window.open(url, '_blank');
+}
