@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Diego Mariucci Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="name">
+            <h1>Diego Mariucci</h1>
+        </div>
+        <nav class="navbar" id="mynavbar">
+            <a class="nav-link" href="#">Home</a>
+            <a class="nav-link" href="#projects">Progetti</a>
+            <a class="nav-link" href="#contact">Contattami</a>
+            <a class="nav-link icon" href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+        </nav>
+    </header>
+    <h1 class="principale">Ciao io sono Diego Mariucci<br>e sono
+        <a href="" class="typewrite" data-period="2000"
+            data-type='[ "uno sviluppatore!", "un creativo!", "un sognatore!"]'>
+            <span class="wrap"></span>
+        </a>
+    </h1>
+    <section id="projects">
+        <h2>Progetti</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 reveal fade-left">
+                    <div class="card">
+                        <img src="projects_img/sitoport.png" alt="Immagine Progetto 1" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Sito portfolio</h3>
+                            <p class="card-text">Il mio sito portfolio</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal fade-left">
+                    <div class="card">
+                        <img src="projects_img/conip.png" alt="Immagine Progetto 1" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Sito votazione CONIP</h3>
+                            <p class="card-text">Sito full stack per le votazioni interne del consorsio CONIP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal fade-left">
+                    <div class="card">
+                        <img src="projects_img/iltuot.png" alt="Immagine Progetto 1" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Il tuo tecnico online</h3>
+                            <p class="card-text">E-commerce in WordPress per la vendita di assistenza online</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 reveal fade-right">
+                    <div class="card">
+                        <img src="projects_img/ricambiStampanti.png" alt="Immagine Progetto 1" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Ricambi stampanti</h3>
+                            <p class="card-text">E-commerce in WordPress per la vendita di parti di ricambio per la stampante</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal fade-right">
+                    <div class="card">
+                        <img src="projects_img/cantineditalia.png" alt="Immagine Progetto 1" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Cantine d'italia</h3>
+                            <p class="card-text">Piattaforma realizzata in WordPress per la vendita di vino da parte di cantine</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 reveal fade-right">
+                    <div class="card">
+                        <img src="projects_img/oii.png" alt="Immagine Progetto 1" class="card-img-top">
+                        <div class="card-body">
+                            <h3 class="card-title">Repository Olimpiadi d'informatica</h3>
+                            <p class="card-text">Raccolta completa di tutte le soluzioni ai problemi delle oii in Java</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Repeat the above card structure for the remaining projects -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2 class="text-center">Contattami</h2>
+        <div class="container reveal fade-bottom">
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <form class="form-contact method="POST" action="email.php"">
+                        <div class="form-group">
+                            <label for="name">Nome</label>
+                            <input type="text" class="form-control" id="name" placeholder="Inserisci il tuo nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Inserisci la tua email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Messaggio</label>
+                            <textarea class="form-control" id="message" rows="5"
+                                placeholder="Inserisci il tuo messaggio"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-primary">Invia</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="social-icons-container">
+                <ul class="social-icons">
+                    <li><a href="https://www.facebook.com/diego.mariucci.52/" target="_blank" class="facebook"></a></li>
+                    <li><a href="https://www.instagram.com/diegomariucci/" target="_blank" class="instagram"></a></li>
+                    <li><a href="https://www.linkedin.com/in/diegomariucci/" target="_blank"
+                            class="linkedin"></a></li>
+                    <li><a href="https://github.com/mariuccidiego" target="_blank" class="github"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <p>Diego Mariucci © 2023 Portfolio. All rights reserved. &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Email: mariuccidiego@gmail.com</p>
+    </footer>
+
+    <script src="function.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
