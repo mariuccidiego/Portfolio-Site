@@ -35,7 +35,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4 reveal fade-left">
-                    <div class="card">
+                    <div class="card" onclick="openLink('https://github.com/mariuccidiego/Portfolio-Site')">
                         <img src="projects_img/sitoport.png" alt="Immagine Progetto 1" class="card-img-top">
                         <div class="card-body">
                             <h3 class="card-title">Sito portfolio</h3>
@@ -53,7 +53,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 reveal fade-left">
-                    <div class="card">
+                    <div class="card" onclick="openLink('https://iltuotecnico.online/')">
                         <img src="projects_img/iltuot.png" alt="Immagine Progetto 1" class="card-img-top">
                         <div class="card-body">
                             <h3 class="card-title">Il tuo tecnico online</h3>
@@ -63,7 +63,7 @@
                 </div>
 
                 <div class="col-md-4 reveal fade-right">
-                    <div class="card">
+                    <div class="card" onclick="openLink('https://ricambistampanti.it/')">
                         <img src="projects_img/ricambiStampanti.png" alt="Immagine Progetto 1" class="card-img-top">
                         <div class="card-body">
                             <h3 class="card-title">Ricambi stampanti</h3>
@@ -72,7 +72,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 reveal fade-right">
-                    <div class="card">
+                    <div class="card" onclick="openLink('http://cantineditalia.it/')">
                         <img src="projects_img/cantineditalia.png" alt="Immagine Progetto 1" class="card-img-top">
                         <div class="card-body">
                             <h3 class="card-title">Cantine d'italia</h3>
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="col-md-4 reveal fade-right">
-                    <div class="card">
+                    <div class="card" onclick="openLink('https://github.com/mariuccidiego/Olimpiadi-informatica')">
                         <img src="projects_img/oii.png" alt="Immagine Progetto 1" class="card-img-top">
                         <div class="card-body">
                             <h3 class="card-title">Repository Olimpiadi d'informatica</h3>
@@ -142,6 +142,11 @@
         <p>Diego Mariucci © 2023 Portfolio. All rights reserved. &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp; Email: mariuccidiego@gmail.com</p>
     </footer>
 
+    <script>
+        function openLink(url) {
+            window.open(url, '_blank');
+        }
+    </script>
     <script src="function.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>

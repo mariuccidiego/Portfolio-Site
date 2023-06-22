@@ -305,14 +305,9 @@ footer p {
 
 @media screen and (max-width: 850px) {
 
-    .navbar a:not(:last-child),
+    .navbar a,
     .dropbtn {
         display: none;
-    }
-
-    .navbar a.icon {
-        float: right;
-        display: block;
     }
 }
 
