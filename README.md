@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This repository contains the source code for my portfolio website. It showcases my projects and provides a way to contact me. The website is built using HTML, CSS, and JavaScript.
+This repository contains the source code for my portfolio website. It showcases my projects and provides a way to contact me. The website is built using HTML, CSS, JavaScriptand PHP.
 
 Dependencies
 The website utilizes the following external libraries and frameworks:
